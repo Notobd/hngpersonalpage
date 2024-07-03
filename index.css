@@ -34,15 +34,14 @@ main {
 .goals {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 100%;
+  padding: 10px 50px;
   margin: auto auto;
-  padding: 20px;
   border-radius: 5px;
   background-color: burlywood;
 }
 li {
-  padding: 10px;
-  margin: 0;
+  padding-bottom: 10px;
 }
 .links {
   display: flex;
@@ -72,13 +71,20 @@ a:active {
   .display-img {
     float: left;
     margin-right: 100px;
+    margin-top: 20px;
   }
   .goals {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 40%;
     color: brown;
     font: bold;
   }
   .tech-goals {
+    padding-right: 210px;
     margin-right: 150px;
+    width: 100%;
   }
   a {
     color: brown;
