@@ -5,7 +5,6 @@
 }
 body {
   font-family: sans-serif;
-  background: #f5f6f7;
   background-color: brown;
 }
 header {
@@ -35,8 +34,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 10px 80px;
-
+  padding: 10px 60px;
   border-radius: 5px;
   background-color: burlywood;
 }
@@ -63,7 +61,7 @@ a:hover {
 a:active {
   color: burlywood;
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1200px) {
   body {
     color: brown;
     background-color: burlywood;
